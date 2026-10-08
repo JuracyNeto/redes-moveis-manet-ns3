@@ -1,0 +1,12 @@
+# Ambiente Python da análise (recriado a partir de requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+
+# Log da compilação do ns-3 (grande e específico da máquina)
+logs/setup_ns3.log
+
+# Arquivos auxiliares de editores/sistema
+.vscode/
+*.swp
+Thumbs.db
