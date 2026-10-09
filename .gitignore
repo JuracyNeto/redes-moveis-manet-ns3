@@ -10,3 +10,8 @@ logs/setup_ns3.log
 .vscode/
 *.swp
 Thumbs.db
+
+# Execuções individuais do lote (intermediárias; o consolidado é results.csv)
+data/raw/*/runs/
+data/raw/*/.lock
+logs/*.out
