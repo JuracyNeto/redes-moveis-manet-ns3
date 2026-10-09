@@ -1,0 +1,17 @@
+Validação de data/raw/base/results.csv
+Linhas: 4800
+[OK] contadores negativos: 0 linha(s)
+[OK] recebidos > transmitidos: 0 linha(s)
+[OK] tx != rx + perdidos: 0 linha(s)
+[OK] PDR fora de [0, 100]: 0 linha(s)
+[OK] PDR inconsistente com rx/tx: 0 linha(s)
+[OK] throughput negativo ou acima da taxa do canal (11.0 Mb/s): 0 linha(s)
+[OK] atraso ou jitter negativo: 0 linha(s)
+[OK] atraso NA com rx > 0 (ou numérico com rx = 0): 0 linha(s)
+[OK] jitter NA com rx >= 2 (ou numérico com rx < 2): 0 linha(s)
+[OK] linhas duplicadas (mesma configuração, run e fluxo): 0 linha(s)
+[INFO] fluxos sem recepção (atraso NA): 3
+[INFO] txPackets distintos (CBR determinístico => 1 valor): [379]
+[INFO] bytes por pacote recebido (camada IP): [1052.0]
+[INFO] seeds: [12345]
+[INFO] configurações: 12 | execuções por configuração: mín 100, máx 100 | fluxos por execução: mín 4, máx 4
