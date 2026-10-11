@@ -15,3 +15,7 @@ Thumbs.db
 data/raw/*/runs/
 data/raw/*/.lock
 logs/*.out
+
+# Fora do repositório público: material da disciplina e anotações locais
+CLAUDE.md
+docs/*.pdf

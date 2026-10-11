@@ -1,0 +1,41 @@
+
+######## Cópia limpa: exatamente o que irá para o git (como um git clone)  [18:40:53]
+arquivos: 47 | tamanho: 7.9M
+
+######## README 3.4: ./scripts/setup_ns3.sh (download + configure + build)  [18:40:54]
+setup exit=0
+
+[setup] Pronto. Teste com:
+    cd /home/gamer/repro-test/ns-3 && ./ns3 run hello-simulator
+lrwxrwxrwx 1 gamer gamer 36 Oct 10 19:02 /home/gamer/repro-test/ns-3/scratch/manet -> /home/gamer/repro-test/manet-ns3/src
+
+######## README 3.5: ambiente Python  [19:02:55]
+pip exit=0
+
+######## README 5.1: um cenário  [19:03:18]
+== manet-routing | protocolo=OLSR speed=20 m/s run=1 seed=12345
+   roteamento instalado (nó 0): ns3::olsr::RoutingProtocol
+   assinatura-mobilidade: 5361.884346 4662.399754
+comparação com data/raw/base (OLSR, 20 m/s, run 1):
+IDÊNTICO
+
+######## README 5.2 (reduzido): ./scripts/run_batch.sh -n teste -r 5 -s '1 20'  [19:04:27]
+[run_batch] total: 30 execuções, 6 em paralelo
+[run_batch] concluído em 20 s: 30/30 execuções completas
+comparação com data/raw/base (mesmas configurações e runs):
+IDÊNTICO (120 linhas)
+
+######## README 5.5: análise do experimento-base (regenera e compara com o repositório)  [19:04:49]
+[analyze] tabelas em data/processed/base/ | gráficos em figures/base/
+  igual: comparacoes_pareadas.csv
+  igual: estatisticas.csv
+  igual: metricas_por_execucao.csv
+  igual: tabela_resumo.csv
+  igual: validacao.txt
+
+######## README 5.5: análise da variável adicional e do lote de teste  [19:04:53]
+[analyze] tabelas em data/processed/var-nodes/ | gráficos em figures/var-nodes/
+[analyze] tabelas em data/processed/teste/ | gráficos em figures/teste/
+figuras do teste: 10
+
+######## FIM  [19:04:59]
